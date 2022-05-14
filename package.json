@@ -5,7 +5,7 @@
   "repository": {
     "private": true,
     "type": "git",
-    "url": "git@github.com:wikibusiness/mail-id.git"
+    "url": "git@github.com:Fatemeh-Pakpour/boilerplate.git"
   },
   "main": "index.js",
   "engines": {
