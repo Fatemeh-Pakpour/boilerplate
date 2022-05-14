@@ -1,38 +1,51 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+dist
+node_modules
+npm-debug.log
+**/.DS_Store
+.idea/**
+.next
+dist-backend
+e2e/report
+backend/main/build
+.vscode/launch.json
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
 
-# testing
-/coverage
 
-# next.js
-/.next/
-/out/
+**/.openapi-generator
+**/apis/.gitignore
+**/apis/.openapi-generator-ignore
+**/apis/git_push.sh
 
-# production
-/build
+**/apis/**/.gitignore
+**/apis/**/.openapi-generator-ignore
+**/apis/**/git_push.sh
+**/apis/**/.npmignore
 
-# misc
-.DS_Store
-*.pem
+frontend/storybook
 
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
+# Ignore DevSpace cache and log folder
+.devspace/
+**/tmp
+**/coverage.txt
+**/coverage.out
+**/coverage.html
+scripts/dev-prod.js
+**/configurationCache.log
+**/dryrun.log
+**/targets.log
 
-# local env files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+**/__pycache__
+manual/output.csv
 
-# vercel
-.vercel
+pythonenv
+.mypy_cache
+dataset
+**/.ipynb_checkpoints
+**.ipynb
+**.csv
 
-# typescript
-*.tsbuildinfo
+# Ignore the clearml config file
+backend-python/segmentation/src/experiments/base_experiment_config.*
+backend-python/segmentation/src/experiments/tuning_config.*
+
+gha-creds-*.json
