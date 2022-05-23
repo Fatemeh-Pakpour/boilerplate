@@ -1,5 +1,29 @@
+import { Paragraph } from "@app/atom/paragraph";
 import React, { memo } from "react";
 
 export const Child = memo(() => {
-  return <div>ljdkhfjk</div>;
+  // interface Target {
+  //   secret: string;
+  //   message2: string;
+  // }
+  // const target = {
+  //   secret: "hello",
+  //   message2: "everyone",
+  // };
+
+  // const handler = {
+  //   set(target: Target, prop: keyof Target, value: string) {
+  //     target[prop] = value;
+  //     return true;
+  //   },
+  //   get(target: Target, prop: keyof Target) {
+  //     return target[prop];
+  //   },
+  // };
+  // const proxy2 = new Proxy(target, handler);
+  // proxy2.message2 = "kitty";
+
+  // console.log(proxy2, "this is proxy");
+
+  return <Paragraph color="main_300">Fatemeh Jan</Paragraph>;
 });
