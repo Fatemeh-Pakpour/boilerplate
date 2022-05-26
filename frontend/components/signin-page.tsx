@@ -25,5 +25,10 @@ export const Child = memo(() => {
 
   // console.log(proxy2, "this is proxy");
 
-  return <Paragraph color="main_300">Fatemeh Jan</Paragraph>;
+  return (
+    <>
+      <Paragraph color="main_500">khjadhfgjfjghjfdhgj</Paragraph>
+      <Paragraph color="error_200">Fatemeh Jan</Paragraph>
+    </>
+  );
 });
