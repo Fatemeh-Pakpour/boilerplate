@@ -5,7 +5,9 @@ const MyApp = (props: any) => {
   return (
     <>
       <Global />
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 };
