@@ -1,5 +1,5 @@
-import { MainColors } from "./color";
-import { rem } from "./styles/mixins";
+import { MainColors } from "../color";
+import { rem } from "../styles/mixins";
 import styled from "styled-components";
 
 export const InputElement = styled.input`

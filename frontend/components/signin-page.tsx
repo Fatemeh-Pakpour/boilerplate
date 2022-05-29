@@ -1,4 +1,4 @@
-import { InputElement } from "@app/atom/input";
+import { InputElement } from "@app/atom/input/input-element";
 import { Paragraph } from "@app/atom/paragraph";
 import React, { memo } from "react";
 
